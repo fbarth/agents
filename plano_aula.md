@@ -1,3 +1,5 @@
+# Plano de aula
+
 | Aula | Questão / Problema / Desafio | Fundamentos / Conteúdo | Evidências de Aprendizado | Programação / Atividades |
 | -----| -----------------------------| -----------------------| --------------------------| -------------|
 | (01) 15/02 | O que é Inteligência Artificial e qual a sua relação com agente autônomo? |Apresentação da disciplina e critérios de avaliação. Introdução à IA e ao conceito de agente autônomo. | Discussão em sala. Entrega de questionário individual. | Aula expositiva com discussão de casos. Referência: Cap 1 e 2 do AIMA e material fornecido pelo professor.|

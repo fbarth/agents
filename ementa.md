@@ -41,8 +41,8 @@ Livros:
 
 Artigos:
 
-1. MCCARTHY, J. What is AI? Disponível em http://jmc.stanford.edu/articles/whatisai.html. November, 2007. 
-2. MuZero: Mastering Go, chess, shogi and Atari without rules. Disponível em https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules. Publicado em Dezembro, 2020.
+1. MCCARTHY, J. [What is AI?](http://jmc.stanford.edu/articles/whatisai.html). November, 2007. 
+2. [MuZero: Mastering Go, chess, shogi and Atari without rules](https://deepmind.com/blog/article/muzero-mastering-go-chess-shogi-and-atari-without-rules). Publicado em Dezembro, 2020.
 
 ## Bibliografia Complementar
 
@@ -52,8 +52,8 @@ Livros:
 
 Artigos:
 
-1.  SILVER, D.; SINGH S.; PRECUP D.; SUTTON R. Reward is enough. Artificial Intelligence. Vol 299, 2021. https://doi.org/10.1016/j.artint.2021.103535.
-2.  SILVER, D.; HUBERT T.; SCHRITTWIESER, J.; ANTONOGLOU, I.; LAI, M.; GUEZ, A. A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play. Science 362, 1140-1144 (2018). https://doi.org/10.1126/science.aar6404.
+1.  SILVER, D.; SINGH S.; PRECUP D.; SUTTON R. [Reward is enough](https://doi.org/10.1016/j.artint.2021.103535). Artificial Intelligence. Vol 299, 2021.
+2.  SILVER, D.; HUBERT T.; SCHRITTWIESER, J.; ANTONOGLOU, I.; LAI, M.; GUEZ, A. [A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](https://doi.org/10.1126/science.aar6404). Science 362, 1140-1144 (2018).
 
 
 ## Atividades e Critérios de aprovação
@@ -69,8 +69,9 @@ Os objetivos de aprendizagem desta disciplina serão avaliados através das segu
 | Implementação de agentes autônomos usando Aprendizagem por Reforço | 20% | 
 | Avaliação Final | 20% | 
 
-* O critério para aprovação é nota final superior ou igual a cinco (5) e 75% de frequência mínima nas aulas. 
-* O resultado de algumas avaliações poderá adotar conceitos ($A^{+}, B, \cdots, I$) ao invés de um valor numérico. Para estes casos será utilizada a seguinte tabela de conversão:
+O critério para aprovação é nota final superior ou igual a cinco (5) e 75% de frequência mínima nas aulas. 
+
+O resultado de algumas avaliações poderá adotar conceitos ($A^{+}, B, \cdots, I$) ao invés de um valor numérico. Para estes casos será utilizada a seguinte tabela de conversão:
 
 | A+ | A | B | C | D | I |
 |----|---|---|---|---|---|
