@@ -50,7 +50,7 @@ The Imitation Game: "Can machines think?"
 * O **comportamento das aplicações** implementadas pode ser
   considerado inteligente?
 
-## Referências 
+## Referências que valem a pena! 
 
 :::::::::::::: {.columns}
 ::: {.column width="50%"}
@@ -137,6 +137,8 @@ A partir de **2015** proliferação de **assistentes virtuais** que fazem uso de
 \includegraphics[width=1\textwidth]{figuras/go.jpg}
 :::
 ::::::::::::::
+
+# O que existe de comum nestes exemplos?
 
 ## O que existe de comum nestes exemplos?
 
