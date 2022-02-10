@@ -17,4 +17,10 @@ Todas os projetos e implementações irão utilizar a linguagem de programação
 Algumas das implementações irão utilizar o toolkit [Gym OpenAI](https://gym.openai.com/), 
 a biblioteca [Keras](https://keras.io/) ou a biblioteca [TF-Agents](https://www.tensorflow.org/agents).
 
+Espera-se que os alunos desta disciplina tenham conhecimento de programação em Python. 
+
 Recomenda-se o uso da IDE Visual Studio Code para codificação dos projetos. 
+
+## Contato
+
+Em caso de dúvida ou comentários, favor encaminhar e-mail para fabriciojb at insper.edu.br. 

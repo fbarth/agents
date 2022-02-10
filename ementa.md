@@ -1,8 +1,8 @@
 # Agentes Autônomos e Aprendizagem por Reforço
 
-Carga Horária:  80 horas-aula
+<!-- Carga Horária:  80 horas-aula
 
-<!--Semestre  : ??º período-->
+Semestre  : ??º período-->
 
 ## Ementa
 
@@ -54,6 +54,7 @@ Artigos:
 
 1.  SILVER, D.; SINGH S.; PRECUP D.; SUTTON R. [Reward is enough](https://doi.org/10.1016/j.artint.2021.103535). Artificial Intelligence. Vol 299, 2021.
 2.  SILVER, D.; HUBERT T.; SCHRITTWIESER, J.; ANTONOGLOU, I.; LAI, M.; GUEZ, A. [A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play](https://doi.org/10.1126/science.aar6404). Science 362, 1140-1144 (2018).
+3. Franklin S., Graesser A. It is an Agent, or just a program? A Taxonomy for Autonomous Agents. 1996.
 
 
 ## Atividades e Critérios de aprovação

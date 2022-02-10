@@ -12,3 +12,11 @@ git push origin main:gh-pages
 ````
 
 No repositório existe uma action configurada para fazer o deploy do conteúdo na página [http://fbarth.net.br/agents/](http://fbarth.net.br/agents/).
+
+## Compilando material escrito em Markdown
+
+Segue um exemplo sobre como compilar os materiais que estão em markdown: 
+
+````bash
+pandoc -t beamer introducao_ia.md -o  introducao_ia.pdf
+````
