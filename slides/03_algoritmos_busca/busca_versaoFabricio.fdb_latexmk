@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1644523144 "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.tex" "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.pdf" "busca_versaoFabricio" 1644523144
+["pdflatex"] 1644523481 "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.tex" "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.pdf" "busca_versaoFabricio" 1644523481
   "/etc/texmf/web2c/texmf.cnf" 1637270217 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.aux" 1644523144 8 a94a2480d3289e625eea47cd1b285758 ""
-  "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.tex" 1644523143 21039 bf16af5c1f1bb49e02de46ac2268e303 ""
+  "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.aux" 1644523481 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.tex" 1644523480 21039 bf16af5c1f1bb49e02de46ac2268e303 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -139,7 +139,7 @@
   "background.sty" 1644516842 2222 5afe32ef9421a3b48b3d0dddab82cacb ""
   "busca_versaoFabricio.aux" 0 -1 0 "pdflatex"
   "busca_versaoFabricio.out" 0 -1 0 "pdflatex"
-  "busca_versaoFabricio.tex" 1644523143 21039 bf16af5c1f1bb49e02de46ac2268e303 ""
+  "busca_versaoFabricio.tex" 1644523480 21039 bf16af5c1f1bb49e02de46ac2268e303 ""
   "figuras/fig03-02.pdf" 1644516842 18558 e0740f639f0cba5388380ebbc85fbe6d ""
   "figuras/fig03-04.pdf" 1644516842 39235 720608c82be8c42e79d4485e5b1a1d35 ""
   "figuras/fig03-05.pdf" 1644516842 3701 ab72248ded69a9b7e0bd13654bc358a9 ""
@@ -150,8 +150,8 @@
   "pause.sty" 1644516842 3096 b49b3bf48f6034c7be80f892dee2644b ""
   (generated)
   "busca_versaoFabricio.aux"
+  "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.pdf"
   "busca_versaoFabricio.out"
+  "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.log"
   "busca_versaoFabricio.log"
   "busca_versaoFabricio.pdf"
-  "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.pdf"
-  "/home/fbarth/workspaces/agents/slides/03_algoritmos_busca/busca_versaoFabricio.log"
