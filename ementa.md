@@ -72,7 +72,7 @@ Os objetivos de aprendizagem desta disciplina serão avaliados através das segu
 
 O critério para aprovação é nota final superior ou igual a cinco (5) e 75% de frequência mínima nas aulas. 
 
-O resultado de algumas avaliações poderá adotar conceitos ($A^{+}, B, \cdots, I$) ao invés de um valor numérico. Para estes casos será utilizada a seguinte tabela de conversão:
+O resultado de algumas avaliações poderá adotar conceitos (A+, B,..., I) ao invés de um valor numérico. Para estes casos será utilizada a seguinte tabela de conversão:
 
 | A+ | A | B | C | D | I |
 |----|---|---|---|---|---|
