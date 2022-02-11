@@ -1,7 +1,8 @@
 # Agente Autônomo e Aprendizagem por Reforço
 
-1. [Ementa da disciplina](ementa.md).
-2. [Plano aula-a-aula da disciplina](plano_aula.md)
+1. [Ementa da disciplina.](ementa.md)
+2. [Plano aula-a-aula da disciplina.](plano_aula.md)
+3. [Diário de bordo da disciplina.](diario.md)
 
 ## Horário das aulas
 

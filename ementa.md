@@ -64,7 +64,7 @@ Os objetivos de aprendizagem desta disciplina serão avaliados através das segu
 | Atividade | Peso |
 | ----------| ----------|
 | Exercícios introdutórios sobre agentes autônomos | 10% |
-| Desenvolvimento de um agente autônomo que atua em um ambiente discreto, determinístico, assíncrono, simulado e *single agent* | 20% |
+| Desenvolvimento de um agente autônomo que atua em um ambiente discreto, determinístico, síncrono, simulado e *single agent* | 20% |
 | Avaliação intermediária | 20% | 
 | Implementação de um agente autônomo que deverá atuar em um ambiente competitivo | 10% | 
 | Implementação de agentes autônomos usando Aprendizagem por Reforço | 20% | 
