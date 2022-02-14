@@ -12,7 +12,7 @@ Introdução à Inteligência Artificial; Definições de Agente Autônomo; Cara
 
 Ao final da disciplina o estudante será capaz de:
 
-1. Compreender os conceitos, técnicas e métodos para o desenvolvimento de Agentes Autônomos.
+1. Descrever os conceitos, técnicas e métodos para o desenvolvimento de Agentes Autônomos.
 2. Saber identificar quais tipos de problemas podem ser resolvidos através do uso de Agentes Autônomos. 
 3. Criar soluções para alguns problemas clássicos desta área sob um ponto de vista introdutório.
 4. Especificar, desenvolver e testar um projeto que faça uso de Agentes Autônomos para resolver um problema complexo.  
