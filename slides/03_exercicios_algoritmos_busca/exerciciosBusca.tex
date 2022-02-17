@@ -1,0 +1,138 @@
+\documentclass[a4]{article}
+
+\usepackage[brazil]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{enumerate}
+\usepackage[a4paper,pdftex,top=2cm,left=3cm,right=3cm,bottom=2cm]{geometry}
+\usepackage{multicol}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\noindent
+INSPER\hfill
+\\
+Disciplina de \textbf{Agentes Autônomos e Aprendizagem por Reforço}\\
+Professor: Fabrício Barth\\
+%Esta lista de exercício deve ser entregue no dia \textbf{16 de março de 2018}\\
+%A entrega desta lista irá valer como presença para o dia \textbf{16 de março de 2018}
+
+%\section*{Exercícios sobre aplicações de IA}
+
+%\begin{enumerate}
+%	\item A partir das referências \footnote{https://hbr.org/2018/01/artificial-intelligence-for-the-real-world} \footnote{https://hbr.org/cover-story/2017/07/the-business-of-artificial-intelligence}, descreva quais são os principais tipos de aplicações de IA. Cite exemplos e tente quantificar o máximo possível o impacto destes tipos de aplicações no mercado. Se desejar, utilize outras referências.
+%	
+%\end{enumerate}
+		
+
+\section*{Exercícios de Busca}
+
+
+\begin{multicols}{2}
+
+\noindent
+Para cada um dos problemas relacionados responda as questões abaixo.
+\begin{enumerate}[$a$)]
+  \item O que é relevante representar nos estados do mundo? Como os
+    estados são estruturados (estrutura de dados) e qual o significado
+    dela (dos campos)?
+  \item Mostre como ficam representados os estados inicial e final
+    segundo a representação adotada.
+  \item Quais as operações sobre os estados?
+    (detalhe como cada operação irá alterar os estados e quais as
+    condições para cada operação ser executada)
+  \item Qual a estimativa do tamanho do espaço de busca (número de
+    estados possíveis)?
+  \item Qual a estimativa do tamanho da árvore de busca a partir do
+    estado inicial (ramificação e profundidade)?
+  \item Algum dos algoritmos de busca cega (largura, profundidade,
+    bi-direcional e profundidade iterativo) poderia ser utilizado?
+    Qual e por que você o escolheria?
+  \item Existem heurísticas? São admissíveis?
+  \item Qual a solução para o problema?
+\end{enumerate}
+
+
+\subsection*{Problemas}
+
+\begin{enumerate}
+\item \emph{As Torres de Hanói}. Existem três mastros e em um deles
+  estão colocados, através de um furo no centro, cinco discos. Todos
+  os discos têm diâmetros diferentes, e cada disco repousa sobre um
+  disco de diâmetro maior. O problema é encontrar uma maneira de mover
+  todos os discos de um mastro para outro respeitando as seguintes
+  condições: somente um disco pode ser movido por vez, todos os
+  discos, com exceção do que esta sendo movido, devem estar sempre em
+  um dos mastros e um disco nunca pode ser colocado sobre outro de
+  diâmetro menor.
+
+\item \emph{O homem, o lobo, o carneiro e o cesto de alface}. Uma
+  pessoa, um lobo, um carneiro e um cesto de alface estão à beira de
+  um rio. Dispondo de um barco no qual pode carregar apenas um dos
+  outros três, a pessoa deve transportar tudo para a outra margem.
+  Determine uma série de travessias que respeite a seguinte condição:
+  em nenhum momento devem ser deixados juntos e sozinhos o lobo e o
+  carneiro ou o carneiro e o cesto de alface.
+
+
+\item \emph{Os missionários e os canibais}. Três missionários e três
+  canibais estão à beira de um rio e dispõem de um barco com
+  capacidade para apenas duas pessoas. O problema é determinar as
+  tripulações de uma série de travessias de maneira que todo o grupo
+  passe para o outro lado do rio, respeitada a condição de que em
+  momento algum os canibais sejam mais numerosos do que os
+  missionários em uma das margens do rio.
+
+\item Considerando um tabuleiro de xadrez ($8 \times 8$) com um
+  único cavalo, quais os movimentos que o cavalo deve fazer para
+  percorrer todas as posições do tabuleiro uma única vez e
+  retornar ao ponto de partida?
+
+\item A banda U2 tem um concerto que começa daqui a 17 minutos e
+  todos precisam cruzar uma ponte par chegar lá. Todos os 4
+  participantes estão do mesmo lado da ponte. É noite. Só
+  há uma lanterna. A ponte suporta, no máximo, duas
+  pessoas. Qualquer pessoa que passe, uma ou duas, deve passar com a
+  lanterna na mão. A lanterna deve ser levada de um lado para outro
+  e não ser jogada. Cada membro da banda tem um tempo diferente
+  para passar de um lado para o outro. O par deve andar no tempo do
+  menos veloz: Bono: 1 minuto para passar; Edge: 2 minutos para
+  passar; Adam: 5 minutos para passar; e Larry: 10 minutos para
+  passar.
+
+O problema consiste em ter os quatro elementos da banda do outro lado
+da ponte no menor tempo possível.
+  
+%\item \emph{O macaco e as bananas}. Um macaco se encontra em uma sala
+%  onde um cacho de bananas pende do teto fora do alcance mesmo dos
+%  pulos do macaco. Na mesma sala existe uma caixa leve o suficiente
+%  para que o macaco a empurre, e também um bastão. Sobre a caixa, o
+%  macaco fica em posição suficientemente alta para, com o bastão,
+%  alcançar o cacho de bananas, caso a caixa esteja sob o cacho.
+%  Determine a melhor seqüência de ações para que o macaco sacie a sua
+%  fome.
+
+
+\item \emph{As oito rainhas}. Coloque oito rainhas em um tabuleiro de
+  xadrez (8 $×$ 8 casas) de maneira que nenhuma rainha ameace
+  outra, i.e., as rainhas não devem compartilhar colunas, linhas ou
+  diagonais do tabuleiro.
+  
+%\item \emph{Quadrado mágico}. Um quadrado mágico de ordem $n$ é um
+%  arranjo quadrado de $n^2$ inteiros distintos dispostos de tal
+%  maneira que os números de uma linha qualquer, de uma coluna qualquer
+%  ou da diagonal principal têm mesma soma, chamada constante mágica do
+%  quadrado. O quadrado é normal se os $n²$ números que o formam são
+%  os primeiros $n²$ inteiros positivos.
+%  
+%  A constante mágica do quadrado é dada por: $n (n² + 1) / 2$. Se
+%  $n=4$, então a constante mágica é $34$. Ou seja, em uma matriz de $4
+%  × 4$, a soma das linhas, colunas e diagonais deve ser $34$. Note que
+%  não se sabe o estado final, apenas suas propriedades.
+
+\end{enumerate}
+
+\end{multicols}
+
+\end{document}
