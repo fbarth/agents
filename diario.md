@@ -1,6 +1,7 @@
 # Diário de bordo da disciplina
 
 * 17/02: Vamos definir melhor o que é [agente autônomo e ambiente](slides/02_agentes_autonomos/agentes_autonomos.pdf). E provavelmente vamos começar a ver uma das formas que podemos utilizar para [modelar e implementar agentes autônomos](slides/03_algoritmos_busca/busca_versaoFabricio.pdf). 
+    * [What's the status of self-driving cars? There has been progress, but safety questions remain.](https://www.cbsnews.com/news/self-driving-cars-status-progress-technology-safety/)
 
 * 15/02: Apresentação dos objetivos, dinâmica e materiais da disciplina. Discussão sobre o que é [IA e a relação com agentes autônomos](slides/01_introducao_ia/introducao_ia.pdf). Além das referências já disponibilizadas no material, também foram discutidas outras referências, entre elas:
     * [Game over: Kasparov and The Machine, 2003](https://www.imdb.com/title/tt0379296/)
