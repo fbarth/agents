@@ -1,5 +1,9 @@
 # Diário de bordo da disciplina
 
+* 24/02: Vamos começar a implementar soluções para alguns problemas clássicos de otimização, roteamento e planejamento. O enunciado com as questões está neste [arquivo](./enunciados/implementacoes_busca_parte1.md).
+
+* 22/02: Vimos como definir um problema usando espaço de busca (estados, transições, estado meta e custo) [[referência]](slides/03_algoritmos_busca/busca_versaoFabricio.pdf). Relembramos o funcionamento dos algoritmos de Busca em Largura e Profundidade. Vimos os algoritmos Busca em Profundidade Iterativo e Busca de custo uniforme. Também analisamos tais algoritmos considerando os critérios: completo, ótimo, tempo, espaço. 
+
 * 17/02: Vamos definir melhor o que é [agente autônomo e ambiente](slides/02_agentes_autonomos/agentes_autonomos.pdf). E provavelmente vamos começar a ver uma das formas que podemos utilizar para [modelar e implementar agentes autônomos](slides/03_algoritmos_busca/busca_versaoFabricio.pdf). 
     * [What's the status of self-driving cars? There has been progress, but safety questions remain.](https://www.cbsnews.com/news/self-driving-cars-status-progress-technology-safety/)
 
