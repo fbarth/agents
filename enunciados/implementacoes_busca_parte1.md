@@ -53,11 +53,6 @@ Considere o problema onde o estado inicial é o número 1, o estado meta é o n�
 * Mude a meta para 1000 e repita as
 avaliações acima. Quais foram os resultados? Qual a justificativa para tal resultado? 
 
-* Inclua uma heurística (utilize a interface Heuristica) para a resolução do
-problema. Qual a solução apresentada pelo algoritmo A*?
-
-* Mude a meta para 1001 e repita a execução do algoritmo A*. O algoritmo se comportou adequadamente?
-
 
 ## Problema da banda U2
 
