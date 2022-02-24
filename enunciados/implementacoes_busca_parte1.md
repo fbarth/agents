@@ -83,6 +83,10 @@ O cientista da computação Donal Knuth em 1964 conjecturou que **todo** número
 
 * Implemente um agente autônomo (uma classe do tipo `State`) que dado um número inteiro positivo qualquer gere uma sequência de operações que transformam o número 4 no número informado. Para orientar o desenvolvimento da sua solução sugire-se utilizar o arquivo de teste `pytest test_KnuthProblem.py --capture=tee-sys`.
 
+* A sua implementação funciona para todos os casos? 
+
+* Quais as limitações que devem ser consideradas na sua implementação?
+
 ## Problema do cavalo no tabuleiro de xadrez 
 
 Lembra do problema 4 da lista de exercícios sobre [algoritmos de busca](./exerciciosBusca.pdf)?

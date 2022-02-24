@@ -1,6 +1,8 @@
 # Diário de bordo da disciplina
 
-* 24/02: Vamos começar a implementar soluções para alguns problemas clássicos de otimização, roteamento e planejamento. O enunciado com as questões está neste [arquivo](./enunciados/implementacoes_busca_parte1.md).
+* 03/03: Vamos continuar o problema da banda U2 e conjectura de Knuth.
+
+* 24/02: Vamos começar a implementar soluções para alguns problemas clássicos de otimização, roteamento e planejamento. O enunciado com as questões está neste [arquivo](./enunciados/implementacoes_busca_parte1.md). Fizemos os exercícios do aspirador de pó, aspirador de pó com 3 quartos, soma 1 e soma 2 com explicação sobre heurística.
 
 * 22/02: Vimos como definir um problema usando espaço de busca (estados, transições, estado meta e custo) [[referência]](slides/03_algoritmos_busca/busca_versaoFabricio.pdf). Relembramos o funcionamento dos algoritmos de Busca em Largura e Profundidade. Vimos os algoritmos Busca em Profundidade Iterativo e Busca de custo uniforme. Também analisamos tais algoritmos considerando os critérios: completo, ótimo, tempo, espaço. 
 
