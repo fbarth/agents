@@ -7,7 +7,7 @@ em aberto do [enunciado](./enunciados/implementacoes_busca_parte1.md).
 
 <img src="img/resumo_030322.jpeg" alt="Resumo" width="400"/>
 
-**Tem código novo no projeto! Melhor fazer um *git pull*. **
+Tem código novo no projeto! Melhor fazer um *git pull*.
 
 * 24/02: Vamos começar a implementar soluções para alguns problemas clássicos de otimização, roteamento e planejamento. O enunciado com as questões está neste [arquivo](./enunciados/implementacoes_busca_parte1.md). Fizemos os exercícios do aspirador de pó, aspirador de pó com 3 quartos, soma 1 e soma 2 com explicação sobre heurística.
 
