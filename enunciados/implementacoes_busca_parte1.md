@@ -59,7 +59,7 @@ avaliações acima. Quais foram os resultados? Qual a justificativa para tal res
 Lembra do problema 5 da lista de exercícios sobre [algoritmos de busca](./exerciciosBusca.pdf)?
 
 *A banda U2 tem um concerto que começa daqui a 17 minutos e
-  todos precisam cruzar uma ponte par chegar lá. Todos os 4
+  todos precisam cruzar uma ponte para chegar lá. Todos os 4
   participantes estão do mesmo lado da ponte. É noite. Só
   há uma lanterna. A ponte suporta, no máximo, duas
   pessoas. Qualquer pessoa que passe, uma ou duas, deve passar com a
@@ -68,7 +68,7 @@ Lembra do problema 5 da lista de exercícios sobre [algoritmos de busca](./exerc
   para passar de um lado para o outro. O par deve andar no tempo do
   menos veloz: Bono: 1 minuto para passar; Edge: 2 minutos para
   passar; Adam: 5 minutos para passar; e Larry: 10 minutos para
-  passar.*
+  passar.
 
 * Crie uma classe do tipo `State` para resolver este problema. Leve em consideração as perguntas e respostas do [enunciado anterior](./exerciciosBusca.pdf) para implementar: a estrutura de dados necessária para representar os estados; as operações e como elas afetam os estados; custo de cada operação, e; outros itens relevantes para a solução do problema.
 

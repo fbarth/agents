@@ -1,6 +1,13 @@
 # Diário de bordo da disciplina
 
-* 03/03: Vamos continuar o problema da banda U2 e conjectura de Knuth.
+* 08/03: Discutir o conceito de heurística e algoritmos de busca informados visando resolver os problemas
+em aberto do [enunciado](./enunciados/implementacoes_busca_parte1.md).
+
+* 03/03: Vamos continuar o problema da banda U2 e conjectura de Knuth. Resumo do dia: 
+
+<img src="img/resumo_030322.jpeg" alt="Resumo" width="400"/>
+
+**Tem código novo no projeto! Melhor fazer um *git pull*. **
 
 * 24/02: Vamos começar a implementar soluções para alguns problemas clássicos de otimização, roteamento e planejamento. O enunciado com as questões está neste [arquivo](./enunciados/implementacoes_busca_parte1.md). Fizemos os exercícios do aspirador de pó, aspirador de pó com 3 quartos, soma 1 e soma 2 com explicação sobre heurística.
 
