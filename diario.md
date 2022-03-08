@@ -2,7 +2,13 @@
 
 * 08/03: Discutir o conceito de heurística ([do slide 32 até 41](./slides/03_algoritmos_busca/busca_versaoFabricio.pdf)) 
 e algoritmos de busca informados visando resolver os problemas em aberto 
-do [enunciado](./enunciados/implementacoes_busca_parte1.md).
+do [enunciado 1](./enunciados/implementacoes_busca_parte1.md) e no [enunciado 2](./enunciados/implementacoes_busca_parte2.md). Problemas discutidos:
+    * Aspirador de pó com 2 e 3 quartos;
+    * Soma +1 e +2;
+    * Banda U2;
+    * Conjectura de Knuth;
+    * Cavalo no tabuleiro de Xadrez;
+    * Caminhos entre cidades;
 
 * 03/03: Vamos continuar o problema da banda U2 e conjectura de Knuth. Resumo do dia: 
 
