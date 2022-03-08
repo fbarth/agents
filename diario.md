@@ -1,7 +1,8 @@
 # Diário de bordo da disciplina
 
-* 08/03: Discutir o conceito de heurística e algoritmos de busca informados visando resolver os problemas
-em aberto do [enunciado](./enunciados/implementacoes_busca_parte1.md).
+* 08/03: Discutir o conceito de heurística ([do slide 32 até 41](./slides/03_algoritmos_busca/busca_versaoFabricio.pdf)) 
+e algoritmos de busca informados visando resolver os problemas em aberto 
+do [enunciado](./enunciados/implementacoes_busca_parte1.md).
 
 * 03/03: Vamos continuar o problema da banda U2 e conjectura de Knuth. Resumo do dia: 
 
