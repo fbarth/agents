@@ -112,3 +112,7 @@ Vimos em sala de aula o problema do caminho entre cidades considerando o seguint
 * Depois de testado, quais foram os resultados? As soluções encontradas são ótimas? Você percebeu alguma mudança no tempo de processamento dependendo do objetivo desejado?
 
 * Se este mapa fosse maior? Será que seria possível utilizar os algoritmos vistos até então para resolver o problema? 
+
+# Próximas atividades
+
+[[Próximas atividades](./implementacoes_busca_parte2.md)]
