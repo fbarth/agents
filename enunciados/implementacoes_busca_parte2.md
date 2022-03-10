@@ -40,3 +40,15 @@ execução com os algoritmos de busca cegos?
 
 * Será que é possível criar uma heurística para este problema? Caso positivo, use o algoritmo A* ou ganancioso para encontrar 
 respostas para este problema. 
+
+Referências que podem ajudar no desenvolvimento da solução:
+
+* [Verbete na Wikipedia sobre o Problema do Cavalo](https://pt.wikipedia.org/wiki/Problema_do_cavalo)
+* [Costa & Sá. Heurística eficiente para o passeio aberto do cavalo a partir de casas arbitrárias em tabuleiros 
+quadrados. Simpósio Brasileiro de Pesquisa Operacional. 2013](http://www.din.uem.br/sbpo/sbpo2013/pdf/arq0328.pdf)
+
+## As oito rainhas 
+
+Coloque $N$ rainhas em um tabuleiro de xadrez ($N \times N$ casas), onde $4 \leq N \leq 10$, 
+de maneira que nenhuma rainha ameace outra, i.e., as rainhas não devem compartilhar colunas, 
+linhas ou diagonais do tabuleiro.
