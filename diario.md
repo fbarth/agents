@@ -1,5 +1,7 @@
 # Diário de bordo da disciplina
 
+* [Link para lista de projetos](./enunciados/implementacoes_busca_parte3.md)
+
 * 15/03: Objetivos da aula de hoje:
 
     * Discutir e analisar pendências ou dúvidas sobre os exercícios implementados até então;
