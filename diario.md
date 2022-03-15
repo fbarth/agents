@@ -1,5 +1,11 @@
 # Diário de bordo da disciplina
 
+* 15/03: Objetivos da aula de hoje:
+
+    * Discutir e analisar pendências ou dúvidas sobre os exercícios implementados até então;
+    * **Discutir o problema das oito rainhas**. Material de referência: [slides sobre algoritmos de busca informados: 42-47](./slides/03_algoritmos_busca/busca_versaoFabricio.pdf);
+    * **Iniciar a discussão sobre os enunciados dos problemas que precisam ser entregues nas próximas semanas e que irão valer nota**.
+
 * 10/03: Status sobre os problemas discutidos em sala de aula e novos problemas:
 
     * Aspirador de pó com 2 e 3 quartos: espera-se que **TODOS** tenham entendido e implementado a solução;

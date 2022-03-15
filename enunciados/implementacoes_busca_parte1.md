@@ -105,7 +105,9 @@ Lembra do problema 4 da lista de exercícios sobre [algoritmos de busca](./exerc
 
 Vimos em sala de aula o problema do caminho entre cidades considerando o seguinte mapa:
 
+<p align="center">
 <img src="../slides/03_algoritmos_busca/figuras/mapa.png" alt="Mapa" width="400"/>
+</p>
 
 * Implemente uma classe chamada `Map.py` do tipo `Space` que consegue identificar caminhos entre cidades deste mapa. Para estes exercícios considere os arquivos [code/search/Map.py](../code/search/Map.py) e [code/search/test_Map.py](../code/search/test_Map.py). Sugere-se iniciar este exercício executando os testes primeiro e analisando o código especificado no arquivo de teste. Claro que a primeira vez que você executar o arquivo de teste vai retornar diversos erros porque o arquivo `Map.py` está bem incompleto. A ideia deste exercício é que você preencha os métodos desta classe e teste novamente. 
 

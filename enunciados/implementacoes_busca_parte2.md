@@ -52,3 +52,7 @@ quadrados. Simpósio Brasileiro de Pesquisa Operacional. 2013](http://www.din.ue
 Coloque *N* rainhas em um tabuleiro de xadrez (*N x N* casas), onde *4 <= N <= 10*, 
 de maneira que nenhuma rainha ameace outra, i.e., as rainhas não devem compartilhar colunas, 
 linhas ou diagonais do tabuleiro.
+
+# Próximas atividades
+
+[[Próximas atividades](./implementacoes_busca_parte3.md)]
