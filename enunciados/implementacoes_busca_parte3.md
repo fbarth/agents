@@ -58,7 +58,7 @@ O arquivo de teste precisa ter no mínimo 5 testes considerando 5 estados inicia
 
 Deve-se considerar o estado *goal* apresentado na figura acima como sendo a configuração do estado final. 
 
-**Rubrica da avaliação**: 
+### Rubrica da avaliação 
 
 | Conceito | Definição |
 |:---------|:----------|
@@ -75,13 +75,13 @@ Deve-se considerar o estado *goal* apresentado na figura acima como sendo a conf
 * **Data de entrega**: 07/04/2022 via Blackboard
 
 O objetivo deste exercício é implementar um *taxi driver* que é capaz de definir uma sequência de atividades para pegar um 
-passageiro em um lugar de deixá-lo em outro lugar. Para implementar uma solução para este problema nós vamos utilizar uma biblioteca 
+passageiro em um lugar e deixá-lo em outro lugar. Para implementar uma solução para este problema nós vamos utilizar uma biblioteca 
 que simula diversos ambientes. O nome desta biblioteca é `gym` e faz parte do projeto [OpenAI](https://gym.openai.com/).
 
 Para que você possa utilizar este ambiente, você precisa executar as seguintes linhas de código: 
 
 ````bash
-# va para o diretorio raiz do projeto
+# no diretorio raiz do projeto
 cd diretorio_projeto
 # atualize o codigo local do projeto
 git pull
@@ -103,7 +103,7 @@ state = env.reset()
 env.render()
 ````
 
-você irá criar um ambiente do tipo *taxi*, inicializar um estado qualquer e imprimir o estado na tela: 
+você irá criar um ambiente do tipo *táxi*, inicializar um estado qualquer e imprimir o estado na tela: 
 
 <p align="center">
 <img src="img/taxi.png" alt="Ambiente do taxi" width="100"/>
@@ -128,6 +128,7 @@ O agente *táxi* sabe executar as seguintes ações:
 O objetivo do agente é encontrar uma sequência de ações para pegar um passageiro em qualquer um dos 4 pontos e levar o passageiro para qualquer um dos 4 pontos, respeitando os obstáculos do mapa. Por exemplo, ao executar as seguintes ações: 
 
 ````python
+>>> state, reward, done, info = env.step(0)
 >>> state, reward, done, info = env.step(0)
 >>> state, reward, done, info = env.step(3)
 ````
@@ -176,9 +177,9 @@ chegamos ao estado:
 <img src="img/taxi4.png" alt="Ambiente do taxi" width="100"/>
 </p>
 
-neste momento o valor da variável **done** é `True` (state, reward, **done**, info = env.step(5)). Isto significa que o agente atingiu um estado que é meta. 
+neste momento o valor da variável **done** é `True` (`state, reward, done, info = env.step(5)`). Isto significa que o agente atingiu um estado que é meta. 
 
-Este ambiente simulado normalmente é utilizado para o desenvolvimento de agentes que não possuem uma representação completa do estado. Por isso que não existe um método em `env` que retorna uma representação completa do estado atual, por exemplo. No entanto, até o momento só estudamos nesta disciplina técnicas que precisam ter uma representação completa do estado. Por isso que vamos ter que acessar os atributos da instância `env` para que o nosso agente possa criar uma representação completa do ambiente:
+Este ambiente simulado normalmente é utilizado para o desenvolvimento de agentes que não possuem uma representação completa do estado. Por isso que não existe um método em `env` que retorna uma representação completa do estado atual. No entanto, até o momento só estudamos nesta disciplina técnicas que precisam ter uma representação completa do estado. Por isso vamos ter que acessar os atributos da instância `env` para que o nosso agente possa criar uma representação completa do ambiente:
 
 ````python
 print(env.desc)
@@ -231,7 +232,31 @@ else:
     print("Não soube encontrar a solução")
 ````
 
-Você terá que desenvolver o `MeuTaxi` que retorna uma sequência de ações (através do método `path()`)
+Você terá que desenvolver o `MeuTaxi` que retorna uma sequência de ações (através do método `path()`). Perceba que ao instanciar um objeto do tipo `MeuTaxi` são passadas todas as informações sobre o estado inicial e final. O agente deve calcular todo o plano e retornar a sequência de ações através do método `path()`. A iteração: 
 
-**ESTE ENUNCIADO NÃO ESTÁ COMPLETO**
+````python
+for a in taxi.path():
+    state, reward, done, info = env.step(a)
+    env.render()
+````
+
+vai fazer com que o agente execute uma ação por vez e imprima o estado atual, criando assim um efeito de movimentação na tela. 
+
+Se ao final da execução do `for` o agente encontrar um estado onde `done == True` então significa que o agente soube encontrar um plano válido. 
+
+A entrega da sua implementação deverá ter 3 arquivos:
+
+* Arquivo `python` que implementa a interface `State`;
+* Arquivo de teste `test_taxi_driver.py` que especifica testes utilizando a biblioteca pytest;
+* Arquivo README.md que descreve como os estados são representados, como os sucessores são gerados e outras informações que você julgar relevantes (i.e., heurística, etc).
+
+### Rubrica da avaliação 
+
+| Conceito | Definição |
+|:---------|:----------|
+| Insuficiente (I) | Não fez a especificação do problema, definindo como representar os estados do mundo, como gerar os sucessores e qual algoritmo deveria ser escolhido para este problema. |
+| Em Desenvolvimento (D) | Gerou uma documentação descrevendo como representar os estados do mundo e como implementar os sucessores, mas não terminou a implementação e nem a especificação dos casos de teste. |
+| Básico (C) | Implementou uma solução que representa corretamente os estados do mundo e gera os sucessores corretamente. Mas não implementou uma heurística admissível e favorável (que permite uma busca mais eficiente). Além de ter entregue a implementação da solução, também entregou os casos de teste e a documentação. |
+| Esperado (B) | Implementou uma solução que representa corretamente os estados do mundo, gera os sucessores corretamente e tem uma heurística admissível, mas não necessariamente favorável. Como consequência tem uma solução que sempre encontra uma solução ótima, mas o cálculo da solução pode levar mais que alguns segundos. Além de ter entregue a implementação da solução, também entregou os casos de teste e a documentação.  |
+| Avançado (A+) | Implementou uma solução que representa corretamente os estados do mundo, gera os sucessores corretamente e tem uma heurística admissível e favorável. Como consequência tem uma solução que sempre encontra uma solução ótima em um tempo aceitável (na ordem de segundos). Além de ter entregue a implementação da solução, também entregou os casos de teste e a documentação. |
 

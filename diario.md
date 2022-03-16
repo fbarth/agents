@@ -2,6 +2,8 @@
 
 * [Link para lista de projetos](./enunciados/implementacoes_busca_parte3.md)
 
+* 15/03: Neste dia discutimos o problema das 8-Rainhas e as suas possíveis soluções. Em [code/search/N_QueensProblem.py](./code/search/N_QueensProblem.py) é apresentado uma possível solução para o problema. No entanto, durante a aula foram identificadas algumas melhoras que poderiam ser aplicadas na geração do estado inicial e na geração dos sucessores a fim de reduzir o espaço de busca. Sugiro implementar tais melhorias no código e testá-las. 
+
 * 15/03: Objetivos da aula de hoje:
 
     * Discutir e analisar pendências ou dúvidas sobre os exercícios implementados até então;
