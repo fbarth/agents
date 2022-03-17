@@ -19,16 +19,10 @@ igual ao pai do nodo.
 <img src="img/grafo-2.png" alt="Grafo" width="400"/>
 </p>
 
-    1. Desenhe a árvore que o algoritmo A* cria. Detalhe a árvore o 
-    máximo possível. Em cada nodo aberto na árvore descreva o custo para chegar 
-    naquele nodo mais o valor fornecido pela heurística.
-
+    1. Desenhe a árvore que o algoritmo A* cria. Detalhe a árvore o máximo possível. Em cada nodo aberto na árvore descreva o custo para chegar naquele nodo mais o valor fornecido pela heurística.
     2. Descreva o caminho para a solução do problema que o algoritmo A* encontra.
-
     3. A heurística utilizada no problema é admissível? Explique.
-
     4. O algoritmo A* é ótimo se o valor da função *h* fosse igual a 0 (*h(n) = 0*)? Justifique.
-
     5. O algoritmo A* é ótimo se o valor da função *f* for sempre 0 (*f(n) = g(n) + h(n) = 0*)? Justifique.
 
 2. Descreve qual é a principal diferente entre os algoritmos Subida da Montanha e os demais algoritmos que fazem uso de heurísticas vistos nesta disciplina.
