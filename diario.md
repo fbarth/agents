@@ -1,5 +1,13 @@
 # Diário de bordo da disciplina
 
+* 24/03: agenda para os próximos dias: 
+    * 24/03: entrega do exercício número 1;
+    * 29/03: correção do exercício número 1 e espaço para desenvolvimento do exercício 2;
+    * 31/03: entrega do exercício número 2. Não teremos aula neste dia pois é período de avaliações intermediárias;
+    * 05/04: não tem aula neste dia - período de avaliações intermediárias;
+    * 07/04: entrega do exercício número 3;
+    * 12/04: correção dos exercícios número 2 e 3. Início do conteúdo sobre busca competitiva.
+
 * [Link para lista de projetos](./enunciados/implementacoes_busca_parte3.md)
 
 * 15/03: Neste dia discutimos o problema das 8-Rainhas e as suas possíveis soluções. Em [code/search/N_QueensProblem.py](./code/search/N_QueensProblem.py) é apresentado uma possível solução para o problema. No entanto, durante a aula foram identificadas algumas melhoras que poderiam ser aplicadas na geração do estado inicial e na geração dos sucessores a fim de reduzir o espaço de busca. Sugiro implementar tais melhorias no código e testá-las. 
