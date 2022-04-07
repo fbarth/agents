@@ -1,5 +1,11 @@
 # Diário de bordo da disciplina
 
+* Material sobre Busca Competitiva:
+    * [Material principal e atualizado](http://fbarth.net.br/Connect4-Python/).
+    * [Implementações sobre Busca Competitiva neste repositório](./code/games/README.md).
+    * [Referência secundária](./slides/04_busca_competitiva/buscaCompetitiva.pdf).
+
+
 * 05/04 (semana de provas):
     * as entregas do exercício número 2 (8 puzzle) foram feitas. A avaliação das entregas será feita ao longo da semana, com apresentação de uma possível solução no dia 12/4. 
     * a data limite para entrega do exercício número 3 (taxi driver) foi postergada para o dia 11/4 (segunda-feira), como combinado em sala de aula. 
