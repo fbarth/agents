@@ -8,12 +8,12 @@ O jogo da velha é um jogo extremamente simples e amplamente conhecido, não nec
 
 Na pasta `tictactoe` você irá encontrar os seguintes arquivos: 
 
-    * [tictactoe/JogoVelha.py](tictactoe/JogoVelha.py): implementa as regras e controles do jogo da velha;
-    * [tictactoe/TournamentJV.py](tictactoe/TournamentJV.py): define um campeonato de ida e volta entre vários jogadores;
-    * [tictactoe/Player.py]: define a interface que cada implementação de jogador deve seguir;
-    * [tictactoe/PlayerSpecificationJV.py](tictactoe/PlayerSpecificationJV.py): trata-se de um exemplo de como cada participante do campeonato deve codificar o seu jogador;
-    * [tictactoe/BarthJV.py](./tictactoe/BarthJV.py) e [tictactoe/CaioSamuel.py](./tictactoe/CaioSamuel.py): são exemplos de implementações de jogadores;
-    * além disso, no diretório [tictactoe](./tictactoe/) é possível encontrar alguns arquivos de testes usando `pytest` que começam com `test_`.
+* [tictactoe/JogoVelha.py](tictactoe/JogoVelha.py): implementa as regras e controles do jogo da velha;
+* [tictactoe/TournamentJV.py](tictactoe/TournamentJV.py): define um campeonato de ida e volta entre vários jogadores;
+* [tictactoe/Player.py]: define a interface que cada implementação de jogador deve seguir;
+* [tictactoe/PlayerSpecificationJV.py](tictactoe/PlayerSpecificationJV.py): trata-se de um exemplo de como cada participante do campeonato deve codificar o seu jogador;
+* [tictactoe/BarthJV.py](./tictactoe/BarthJV.py) e [tictactoe/CaioSamuel.py](./tictactoe/CaioSamuel.py): são exemplos de implementações de jogadores;
+* além disso, no diretório [tictactoe](./tictactoe/) é possível encontrar alguns arquivos de testes usando `pytest` que começam com `test_`.
 
 As regras para a competição são:
 
