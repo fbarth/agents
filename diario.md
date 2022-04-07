@@ -1,4 +1,4 @@
-# Diário de bordo da disciplinas
+# Diário de bordo da disciplina
 
 * 05/04 (semana de provas):
     * as entregas do exercício número 2 (8 puzzle) foram feitas. A avaliação das entregas será feita ao longo da semana, com apresentação de uma possível solução no dia 12/4. 
