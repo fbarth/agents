@@ -102,9 +102,9 @@ cat logs/competicao_results.log | grep -e 'duration'
 
 ## Jogo Liga4 com PopOut
 
-TBD..
+Trata-se de uma variante do Liga4 onde além de adicionar peças em cada coluna é possível também remover peças que estão na base das colunas, desde que tais peças sejam do jogador. 
 
-
+**TODO**: Falta finalizar o texto. 
 
 
 
