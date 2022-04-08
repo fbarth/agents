@@ -9,18 +9,29 @@ import numpy as np
 import datetime
 from ManualPlayer import ManualPlayer
 from RandomPlayer import RandomPlayer
+from BarthPlayer import BarthPlayer
+from termcolor import colored
 
 class FourInRow:
 
     def __init__(self, player1, player2):
         self.board = np.zeros( (6,7) )
         self.players = [player1, player2]
+    
+    def printSymbol(number):
+        if number==1:
+            return colored('●', 'yellow')
+        elif number==2:
+            return colored('●', 'red')
+        else: 
+            return ' '
 
-    def printBoard(self):
-        # TODO fazer um print mais bonito. ainda em modo texto, mas mais 
-        # informativo, talvez com simbolos. 
-        print(self.board)
-        print("\n")
+    def printBoard(self): 
+        for lin in range(0,6):
+            for col in range(0,7):
+                print(FourInRow.printSymbol(self.board[lin][col])+" | ", end='')
+            print('')    
+        print('\n')
 
     #
     # Only accepts player equal 1 or 2
@@ -107,10 +118,16 @@ class FourInRow:
 
         return False
 
+    def isBoardFull(self):
+        for lin in range(0,6):
+            for col in range(0,7):
+                if self.board[lin][col] == 0:
+                    return False
+        return True
+
     def game(self):
         k=1
-        # TODO preciso identificar empate!
-        while (not self.endOfGame()):
+        while ((not self.endOfGame()) != (self.isBoardFull())):
             k = (int)(not k)
             inicio = datetime.datetime.now()
             self.movement(k+1, self.players[k].move(k+1, self.board))
@@ -118,12 +135,20 @@ class FourInRow:
             if(dur > 10):
                 print('Player '+ self.players[k].name() + ' duration (seconds): '+ str(dur))
             self.printBoard()
-        print('Player number '+ str(k)+ ": " + self.players[k].name() + ' is the winner!')
-        # returning the winner name
-        return self.players[k].name()
+        if self.endOfGame():
+            if k+1 == 1:
+                print(colored('Player number '+ str(k+1)+ ": " + self.players[k].name() + ' is the winner!', 'yellow'))
+            else:
+                print(colored('Player number '+ str(k+1)+ ": " + self.players[k].name() + ' is the winner!', 'red'))
+            return self.players[k].name()
+        else:
+            print('It is a draw')
+            return 'DRAW'
 
 def main():
-    FourInRow(RandomPlayer(), ManualPlayer()).game()
+    FourInRow(RandomPlayer(), BarthPlayer()).game()
+    #FourInRow(RandomPlayer(), ManualPlayer()).game()
+    #FourInRow(ManualPlayer(), ManualPlayer()).game()
 
 if __name__ == '__main__':
     main()
