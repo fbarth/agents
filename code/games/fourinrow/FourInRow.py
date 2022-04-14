@@ -22,7 +22,7 @@ class FourInRow:
         if number==1:
             return colored('●', 'yellow')
         elif number==2:
-            return colored('●', 'red')
+            return colored('■', 'red')
         else: 
             return ' '
 

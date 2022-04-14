@@ -1,5 +1,8 @@
 # Diário de bordo da disciplina
 
+* Implementação de um agente para ambiente competitivo:
+    * [Enunciado da implementação](./enunciados/implementacao_busca_competitiva.md).
+
 * Material sobre Busca Competitiva:
     * [Material principal e atualizado](http://fbarth.net.br/Connect4-Python/).
     * [Implementações sobre Busca Competitiva neste repositório](./code/games/README.md).

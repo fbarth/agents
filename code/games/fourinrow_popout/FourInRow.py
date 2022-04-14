@@ -14,7 +14,7 @@ class FourInRow:
         if number==1:
             return colored('●', 'yellow')
         elif number==2:
-            return colored('●', 'red')
+            return colored('■', 'red')
         else: 
             return ' '
 
@@ -152,7 +152,8 @@ class FourInRow:
             return 'DRAW'
 
 def main():
-    FourInRow(ManualPlayer(), ManualPlayer()).game()
+    #FourInRow(ManualPlayer(), RandomPlayer()).game()
+    FourInRow(RandomPlayer(), RandomPlayer()).game()
 
 if __name__ == '__main__':
     main()
