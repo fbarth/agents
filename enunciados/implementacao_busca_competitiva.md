@@ -46,6 +46,8 @@ Ao implementar este agente você deve considerar algumas restrições:
     * remover um disco do oponente, ou; 
     * jogar um disco em uma coluna que já está completa. 
 
+* O seu agente **não** pode perder nenhuma partida para o jogador aleatório. 
+
 Se o seu agente realizar qualquer um destes movimentos durante a competição então ele será desclassificado da competição. 
 
 ## Referências
