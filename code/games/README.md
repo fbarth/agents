@@ -104,7 +104,7 @@ cat logs/competicao_results.log | grep -e 'duration'
 
 Trata-se de uma variante do Liga4 onde além de adicionar peças em cada coluna é possível também remover peças que estão na base das colunas, desde que tais peças sejam do jogador. 
 
-**TODO**: Falta finalizar o texto. 
+As implementações têm a mesma estrutura do jogo convencional de Liga4. O enunciado para o projeto pode ser acessado [aqui](../../enunciados/implementacao_busca_competitiva.md).
 
 
 
