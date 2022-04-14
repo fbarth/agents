@@ -60,11 +60,11 @@ Para implementar o seu agente você poderá fazer uso de diversas referências, 
 
 * [Checkers is solved](https://www.science.org/doi/10.1126/science.1144079). Artigo publicado na Science sobre o tema "Teoria de Jogos". O link para o texto completo está [aqui](https://www.researchgate.net/publication/231216842_Checkers_Is_Solved).
 
-* Verbete da Wikipedia sobre Connect4: https://en.wikipedia.org/wiki/Connect_Four
+* [Verbete da Wikipedia sobre Connect4](https://en.wikipedia.org/wiki/Connect_Four).
 
-* Verbete da wikipedia sobre função de avaliação: https://en.wikipedia.org/wiki/Evaluation_function
+* [Verbete da wikipedia sobre função de avaliação](https://en.wikipedia.org/wiki/Evaluation_function).
 
-* Documentação sobre a função de avaliação utilizada pelo stockfish: https://stockfishchess.org/blog/2020/introducing-nnue-evaluation/
+* [Documentação sobre a função de avaliação utilizada pelo stockfish](https://stockfishchess.org/blog/2020/introducing-nnue-evaluation/).
 
 * [Material sobre como implementar um robô jogador de Connect4](http://fbarth.net.br/Connect4-Python/).
 
