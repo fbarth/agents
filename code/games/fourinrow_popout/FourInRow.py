@@ -51,7 +51,7 @@ class FourInRow:
                 while (self.board[i,column[1]] != 0) and (i >= 1):
                     self.board[i,column[1]] = self.board[i-1, column[1]]
                     i = i - 1
-                self.board[i-1,column[1]] == 0 
+                self.board[i,column[1]] == 0 
 
         except IndexError:
             raise Exception('Player '+str(player)+', you only can choose a column between 0 and 6')
@@ -72,7 +72,9 @@ class FourInRow:
                 else:
                     counter = 0
                 if (counter==3):
-                    return True
+                    #print(current)
+                    #return True
+                    return current
         # vertically
         for i in range(6):
             current=None
@@ -88,7 +90,9 @@ class FourInRow:
                 else:
                     counter = 0
                 if (counter == 3):
-                    return True
+                    #print(current)
+                    #return True
+                    return current
         # "main" diagonal
         for k in range(-2,4):
             current = None
@@ -103,7 +107,9 @@ class FourInRow:
                         counter = 1
                         current = x[i]
                 if (counter == 3):
-                    return True
+                    #print(x[i-1])
+                    #return True
+                    return x[i-1]
         # "anti" diagonal
         # [::-1] rotaciona as linhas da matriz
         temp = self.board[::-1]
@@ -120,9 +126,12 @@ class FourInRow:
                         counter = 1
                         current = x[i]
                 if (counter == 3):
-                    return True
+                    #print(x[i-1])
+                    #return True
+                    return x[i-1]
 
-        return False
+        #return False
+        return -1
 
     def isBoardFull(self):
         for lin in range(0,6):
@@ -133,7 +142,7 @@ class FourInRow:
 
     def game(self):
         k=1
-        while ((not self.endOfGame()) != (self.isBoardFull())):
+        while ((self.endOfGame() == -1) != (self.isBoardFull())):
             k = (int)(not k)
             inicio = datetime.datetime.now()
             self.movement(k+1, self.players[k].move(k+1, self.board))
@@ -141,12 +150,12 @@ class FourInRow:
             if(dur > 10):
                 print('Player '+ self.players[k].name() + ' duration (seconds): '+ str(dur))
             self.printBoard()
-        if self.endOfGame():
-            if k+1 == 1:
-                print(colored('Player number '+ str(k+1)+ ": " + self.players[k].name() + ' is the winner!', 'yellow'))
-            else:
-                print(colored('Player number '+ str(k+1)+ ": " + self.players[k].name() + ' is the winner!', 'red'))
-            return self.players[k].name()
+       
+        result = int(self.endOfGame())
+        if result != -1:
+            color = 'yellow' if result == 1 else 'red'
+            print(colored('Player number '+ str(result) + ": " + self.players[(result-1)].name() + ' is the winner!', color))
+            return self.players[result-1].name()
         else:
             print('It is a draw')
             return 'DRAW'

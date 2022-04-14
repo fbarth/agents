@@ -11,15 +11,21 @@ class RandomPlayer(Player):
             return True
         return False
 
+    def isThereNoSpace(self, board, column): 
+        if board[0][column] != 0:
+            return True
+        return False
+
     def move(self, player_code, board):
         x = randint(0,13)
-        if x < 7:
-            return None, x
-        else:
+        if x >= 7:
             p = x - 7
             if self.bottomDiscExist(player_code, board, p):
+                #print(f'p{p}')
                 return 'p', p
-            else: 
-                return None, randint(0, 6)
-
-
+        
+        x = randint(0,6)
+        while self.isThereNoSpace(board, x):
+            x = randint(0,6)
+        #print(x)
+        return None, x
