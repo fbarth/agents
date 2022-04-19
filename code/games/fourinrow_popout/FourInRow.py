@@ -26,8 +26,9 @@ class FourInRow:
         print('\n')
 
     #
-    # Only accepts player equal 1 or 2
-    # and column between 0 and 6
+    # accepts player equal 1 or 2
+    # and movements like column between 0 and 6
+    # and p0 until p6
     #
     def movement(self, player, column):
         #print(column)
@@ -51,7 +52,7 @@ class FourInRow:
                 while (self.board[i,column[1]] != 0) and (i >= 1):
                     self.board[i,column[1]] = self.board[i-1, column[1]]
                     i = i - 1
-                self.board[i,column[1]] == 0 
+                self.board[i,column[1]] = 0 
 
         except IndexError:
             raise Exception('Player '+str(player)+', you only can choose a column between 0 and 6')
@@ -161,7 +162,7 @@ class FourInRow:
             return 'DRAW'
 
 def main():
-    #FourInRow(ManualPlayer(), RandomPlayer()).game()
+    #FourInRow(RandomPlayer(), ManualPlayer()).game()
     FourInRow(RandomPlayer(), RandomPlayer()).game()
 
 if __name__ == '__main__':
