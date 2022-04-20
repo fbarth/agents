@@ -59,15 +59,21 @@ Abaixo são apresentados exemplos de estados iniciais. Começando com um estado 
 
 Três estados difícieis de serem resolvidos: 
 
+Exemplo 1: 
+
 | 7 | 8 | 6 |
 |:-:|:-:|:-:|
 | 2 | 3 | 5 |
 | 1 | 4 |   |
 
+Exemplo 2:
+
 | 7 | 8 | 6 |
 |:-:|:-:|:-:|
 | 2 | 3 | 5 |
 |   | 1 | 4 |
+
+Exemplo 3:
 
 | 8 | 3 | 6 |
 |:-:|:-:|:-:|
@@ -76,10 +82,14 @@ Três estados difícieis de serem resolvidos:
 
 E dois estados que são impossíveis de serem resolvidos: 
 
+Exemplo 1: 
+
 | 3 | 4 | 8 |
 |:-:|:-:|:-:|
 | 1 | 2 | 5 |
 | 7 |   | 6 |
+
+Exemplo 2:
 
 | 5 | 4 |   |
 |:-:|:-:|:-:|
