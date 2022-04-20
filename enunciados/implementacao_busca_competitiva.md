@@ -128,6 +128,12 @@ A agenda do dia será composta pelas seguintes atividades:
 
 * Depois dos eventuais ajustes então vamos iniciar o torneio de fato onde todas as regras descritas acima serão aplicadas. 
 
+## Bônus por experimentar abordagens diferentes
+
+Aquelas implementações que fizerem uso de alguma abordagem não discutida em sala de aula. Ou seja, fornecem algum elemento de inovação para a disciplina, poderão ter a sua nota na competição incrementada em até dois níveis. Por exemplo, se o jogador ficou em terceito lugar (conceito B) então o conceito final dele será A+. Eventualmente, jogadores que cometerem algum tipo de infração durante a competição, mas estão utilizando algo diferente do que foi discutido em sala de aula também terão a sua nota da competição incrementada de I para C, por exemplo. 
+
+É importante ressaltar que esta abordagem diferente precisa ser muito bem fundamentada para ser considerada como uma inovação. Esta fundamentação precisa fazer parte da documentação do projeto. 
+
 ## Nota final do projeto
 
 A nota final do projeto será uma média simples entre a nota da documentação e a nota da competição. 
