@@ -52,51 +52,44 @@ O arquivo de teste precisa ter no mínimo 5 testes considerando 5 estados inicia
 
 Abaixo são apresentados exemplos de estados iniciais. Começando com um estado inicial **fácil** de ser resolvido: 
 
-|   |   |   |
-|:-:|:-:|:-:|
 | 8 | 1 | 3 |
+|:-:|:-:|:-:|
 |   | 7 | 2 |
 | 6 | 5 | 4 |
 
 Três estados difícieis de serem resolvidos: 
 
-|   |   |   |
-|:-:|:-:|:-:|
 | 7 | 8 | 6 |
+|:-:|:-:|:-:|
 | 2 | 3 | 5 |
 | 1 | 4 |   |
 
-|   |   |   |
-|:-:|:-:|:-:|
 | 7 | 8 | 6 |
+|:-:|:-:|:-:|
 | 2 | 3 | 5 |
 |   | 1 | 4 |
 
-|   |   |   |
-|:-:|:-:|:-:|
 | 8 | 3 | 6 |
+|:-:|:-:|:-:|
 | 7 | 5 | 4 |
 | 2 | 1 |   |
 
 E dois estados que são impossíveis de serem resolvidos: 
 
-|   |   |   |
-|:-:|:-:|:-:|
 | 3 | 4 | 8 |
+|:-:|:-:|:-:|
 | 1 | 2 | 5 |
 | 7 |   | 6 |
 
-|   |   |   |
-|:-:|:-:|:-:|
 | 5 | 4 |   |
+|:-:|:-:|:-:|
 | 6 | 1 | 8 |
 | 7 | 3 | 2 |
 
 O seu agente deve ser capaz de identificar um plano para todos os estados iniciais descritos como fáceis e difícieis acima. Para os estados descritos como impossível o agente precisa retornar a mensagem *"Nao achou solucao"*. Deve-se considerar o estado *goal* em formato caracol, como apresentado abaixo:
 
-|   |   |   |
-|:-:|:-:|:-:|
 | 1 | 2 | 3 |
+|:-:|:-:|:-:|
 | 8 |   | 4 |
 | 7 | 6 | 5 |
 
