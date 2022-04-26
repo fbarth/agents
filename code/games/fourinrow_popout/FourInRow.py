@@ -77,7 +77,7 @@ class FourInRow:
                     #return True
                     return current
         # vertically
-        for i in range(6):
+        for i in range(7):
             current=None
             counter = 0
             for j in range(5):
@@ -162,8 +162,8 @@ class FourInRow:
             return 'DRAW'
 
 def main():
-    #FourInRow(RandomPlayer(), ManualPlayer()).game()
-    FourInRow(RandomPlayer(), RandomPlayer()).game()
+    FourInRow(RandomPlayer(), ManualPlayer()).game()
+    #FourInRow(RandomPlayer(), RandomPlayer()).game()
 
 if __name__ == '__main__':
     main()
