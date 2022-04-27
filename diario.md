@@ -1,5 +1,7 @@
 # Diário de bordo da disciplina
 
+* 28/04: Competição de Connect4 variante com popout. Não esquecer de submeter código e documentação até às 15 horas do dia 28/04.  
+
 * Implementação de um agente para ambiente competitivo:
     * [Enunciado da implementação](./enunciados/implementacao_busca_competitiva.md).
 
