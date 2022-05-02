@@ -42,12 +42,12 @@ class FourInRow:
                     if (self.board[i,column[1]] == 0):
                         break
                 if(i<0):
-                    raise Exception('Player '+str(player)+', you can not play in a full column')
+                    raise Exception('Player '+self.players[player-1].name()+', you can not play in a full column')
                 self.board[i, column[1]] = player
             else:
                 # the player is popping out a piece in column (column[1])
                 if(self.board[5,column[1]] != player):
-                    raise Exception('Player '+str(player)+', you can not pop out from an empty column nor pop out a piece that is not yours.')
+                    raise Exception('Player '+self.players[player-1].name()+', you can not pop out from an empty column nor pop out a piece that is not yours.')
                 i = 5
                 while (self.board[i,column[1]] != 0) and (i >= 1):
                     self.board[i,column[1]] = self.board[i-1, column[1]]
@@ -55,7 +55,7 @@ class FourInRow:
                 self.board[i,column[1]] = 0 
 
         except IndexError:
-            raise Exception('Player '+str(player)+', you only can choose a column between 0 and 6')
+            raise Exception('Player '+self.players[player-1].name()+', you only can choose a column between 0 and 6')
 
     def endOfGame(self):
         # horizontally
@@ -146,7 +146,9 @@ class FourInRow:
         while ((self.endOfGame() == -1) != (self.isBoardFull())):
             k = (int)(not k)
             inicio = datetime.datetime.now()
-            self.movement(k+1, self.players[k].move(k+1, self.board))
+            m = self.players[k].move(k+1, self.board)
+            print(f'Jogador {self.players[k].name()} jogou {m}')
+            self.movement(k+1, m)
             dur = (datetime.datetime.now() -inicio).total_seconds()
             if(dur > 10):
                 print('Player '+ self.players[k].name() + ' duration (seconds): '+ str(dur))

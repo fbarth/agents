@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/fbarth/workspaces/agents/code/games/fourinrow_popout/FourInRow.py", line 49, in movement
+    if(self.board[5,column[1]] != player):
+IndexError: only integers, slices (`:`), ellipsis (`...`), numpy.newaxis (`None`) and integer or boolean arrays are valid indices
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/fbarth/workspaces/agents/code/games/fourinrow_popout/Tournament.py", line 48, in <module>
+    winner = FourInRow(players[i], players[j]).game()
+  File "/home/fbarth/workspaces/agents/code/games/fourinrow_popout/FourInRow.py", line 151, in game
+    self.movement(k+1, m)
+  File "/home/fbarth/workspaces/agents/code/games/fourinrow_popout/FourInRow.py", line 58, in movement
+    raise Exception('Player '+self.players[player-1].name()+', you only can choose a column between 0 and 6')
+Exception: Player Thome, you only can choose a column between 0 and 6

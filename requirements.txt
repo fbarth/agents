@@ -3,4 +3,6 @@ networkx
 gym
 pygame
 termcolor
-
+pickle-mixin
+tensorflow
+keras

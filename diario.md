@@ -1,5 +1,7 @@
 # Diário de bordo da disciplina
 
+* 02/05: [Resultados da competição de Connect4 com variante popout](./code/games/fourinrow_popout/results/Resultados.md). 
+
 * 28/04: Competição de Connect4 variante com popout. Não esquecer de submeter código e documentação até às 15 horas do dia 28/04.  
 
 * Implementação de um agente para ambiente competitivo:

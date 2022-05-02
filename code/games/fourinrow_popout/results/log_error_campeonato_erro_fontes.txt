@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/fbarth/workspaces/agents/code/games/fourinrow_popout/Tournament.py", line 48, in <module>
+    winner = FourInRow(players[i], players[j]).game()
+  File "/home/fbarth/workspaces/agents/code/games/fourinrow_popout/FourInRow.py", line 151, in game
+    self.movement(k+1, m)
+  File "/home/fbarth/workspaces/agents/code/games/fourinrow_popout/FourInRow.py", line 42, in movement
+    if (self.board[i,column[1]] == 0):
+ValueError: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+
+Jogador Fontes jogou (None, None)
