@@ -78,7 +78,7 @@ cat results/log_campeonato_rodada5.txt| grep -e 'duration'
 
 Nenhum output é apresentado. Apenas o jogador `AutoPlayer` teve que ajustar a sua profundidade de 10 para 9. 
 
-O ranking final da competição foi: 
+**O ranking final da competição foi**: 
 
 * Primeiro colocado: GZPlayer
 * Segundo colocado: Carlos Monteiro (8, 1)
