@@ -1,5 +1,9 @@
 # Diário de bordo da disciplina
 
+* 05/05: [Material sobre Aprendizagem por reforço](https://github.com/fbarth/reinLearn):
+    * Os slides estão disponíveis em [https://github.com/fbarth/reinLearn/blob/main/slides/reinforcementLearning.pdf](https://github.com/fbarth/reinLearn/blob/main/slides/reinforcementLearning.pdf).
+    * Os códigos estão disponíveis em [https://github.com/fbarth/reinLearn/tree/main/src](https://github.com/fbarth/reinLearn/tree/main/src).
+
 * 02/05: [Resultados da competição de Connect4 com variante popout](./code/games/fourinrow_popout/results/Resultados.md). 
 
 * 28/04: Competição de Connect4 variante com popout. Não esquecer de submeter código e documentação até às 15 horas do dia 28/04.  
