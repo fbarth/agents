@@ -1,5 +1,10 @@
 # Diário de bordo da disciplina
 
+* 09/05 e 12/05: 
+    * [Q-Learning e ambientes não-determinísticos](https://github.com/fbarth/reinLearn/tree/main/src/parte3/parte3.md)
+    * [Q-Learning e jogos com variável aleatória](https://github.com/fbarth/reinLearn/tree/main/src/parte4/parte4.md)
+    * [Discretizando o espaço de estados](https://github.com/fbarth/reinLearn/tree/main/src/parte5/parte5.md)
+
 * 05/05: [Material sobre Aprendizagem por reforço](https://github.com/fbarth/reinLearn):
     * Os slides estão disponíveis em [https://github.com/fbarth/reinLearn/blob/main/slides/reinforcementLearning.pdf](https://github.com/fbarth/reinLearn/blob/main/slides/reinforcementLearning.pdf).
     * Os códigos estão disponíveis em [https://github.com/fbarth/reinLearn/tree/main/src](https://github.com/fbarth/reinLearn/tree/main/src).
