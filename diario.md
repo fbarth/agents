@@ -1,13 +1,21 @@
 # Diário de bordo da disciplina
 
+* Atividades para o dia 12/05: 
+    * Treinar e avaliar o agente que atua no ambiente de BlackJack.
+    * Treinar e avaliar o agente que atua no ambiente MountainCar.
+    * Entender o conceito de Deep Q-Learning.
+    * 
+
 * 09/05 e 12/05: 
     * [Q-Learning e ambientes não-determinísticos](https://github.com/fbarth/reinLearn/tree/main/src/parte3/parte3.md)
     * [Q-Learning e jogos com variável aleatória](https://github.com/fbarth/reinLearn/tree/main/src/parte4/parte4.md)
     * [Discretizando o espaço de estados](https://github.com/fbarth/reinLearn/tree/main/src/parte5/parte5.md)
+    * 
 
 * 05/05: [Material sobre Aprendizagem por reforço](https://github.com/fbarth/reinLearn):
     * Os slides estão disponíveis em [https://github.com/fbarth/reinLearn/blob/main/slides/reinforcementLearning.pdf](https://github.com/fbarth/reinLearn/blob/main/slides/reinforcementLearning.pdf).
     * Os códigos estão disponíveis em [https://github.com/fbarth/reinLearn/tree/main/src](https://github.com/fbarth/reinLearn/tree/main/src).
+    * 
 
 * 02/05: [Resultados da competição de Connect4 com variante popout](./code/games/fourinrow_popout/results/Resultados.md). 
 
