@@ -1,5 +1,7 @@
 # Diário de bordo da disciplina
 
+* [Material sobre Deep Reinforcement Learning](https://github.com/fbarth/reinLearn/blob/main/slides/deep_reinforcement_learning.md)
+
 * Atividades para o dia 12/05: 
     * Treinar e avaliar o agente que atua no ambiente de BlackJack.
     * Treinar e avaliar o agente que atua no ambiente MountainCar.
