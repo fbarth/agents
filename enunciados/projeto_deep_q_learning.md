@@ -38,7 +38,7 @@ O objetivo da entrega proficiente é desenvolver um agente que consegue jogar o 
 
 * o script que realiza o treino do agente deve persistir o modelo treinado para que outro script faça uso deste modelo.
 
-## Entrega Avançado
+## Entrega Avançada
 
 O objetivo da entrega avançada é treinar um agente que pode alcançar um nível sobre-humano no **Space Invaders** do Atari. Os mesmos itens que são solicitados na *entrega proficiente* também são solicitados aqui.  
 
@@ -52,9 +52,9 @@ O objetivo da entrega avançada é treinar um agente que pode alcançar um níve
 
 # Data e formato de entrega
 
-Este trabalho é um trabalho individual e deverá ser entregue via um repositório privado no GitHub. O aluno deverá convidar o professor da disciplina e deverá manter este repositório privado até o final do semestre. Depois, se for da vontade do aluno, o respositório poderá se tornar público. 
+Este trabalho é um trabalho **individual** e deverá ser entregue via um **repositório privado no GitHub**. O aluno deverá convidar o professor da disciplina e deverá manter este repositório privado até o final do semestre. Depois, se for da vontade do aluno, o respositório poderá se tornar público. 
 
-A data máxima para entrega deste projeto é 27/05/2022 (quinta-feira).
+A data máxima para entrega deste projeto é **27/05/2022** (quinta-feira).
 
 
 
