@@ -1,5 +1,7 @@
 # Diário de bordo da disciplina
 
+* 17/05: [Enunciado do projeto sobre Deep Q-Learning](./enunciados/projeto_deep_q_learning.md)
+
 * [Material sobre Deep Reinforcement Learning](https://github.com/fbarth/reinLearn/blob/main/slides/deep_reinforcement_learning.md)
 
 * Atividades para o dia 12/05: 
