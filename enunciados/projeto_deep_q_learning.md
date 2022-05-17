@@ -54,7 +54,7 @@ O objetivo da entrega avançada é treinar um agente que pode alcançar um níve
 
 Este trabalho é um trabalho **individual** e deverá ser entregue via um **repositório privado no GitHub**. O aluno deverá convidar o professor da disciplina e deverá manter este repositório privado até o final do semestre. Depois, se for da vontade do aluno, o respositório poderá se tornar público. 
 
-A data máxima para entrega deste projeto é **29/05/2022** (domingo). Por favor, informar na atividade criada no BlackBoard o link para o repositório no GitHub.
+A data máxima para entrega deste projeto é **29/05/2022** (domingo).
 
 
 
