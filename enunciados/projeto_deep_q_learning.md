@@ -18,11 +18,11 @@ O objetivo da entrega básica é desenvolver um agente que consegue controlar um
 
 * um resumo do processo de treinamento na forma de uma imagem. Esta imagem deve apresentar os episódios versus o indicador escolhido pelo aluno para a avaliar o processo de aprendizagem; 
 
-* o script que realiza o treino do agente deve persistir o modelo treinado para que outro script faça o uso deste modelo. A forma como os scripts irão gravar e ler o modelo fica a critério do aluno;
+* um script que faz a leitura do modelo treinado e testa o agente em um estado inicial aleatório. O script que realiza o treino do agente deve persistir o modelo treinado para que outro script faça o uso deste modelo. A forma como os scripts irão gravar e ler o modelo fica a critério do aluno;
 
 * um script que treina o agente usando o algoritmo proposto por [[3](https://arxiv.org/abs/1509.06461)]. Este script pode ser uma versão a partir do código [DeepQLearning.py](https://github.com/fbarth/reinLearn/blob/main/src/parte6/DeepQLearning.py), pode ser um script que utilizada a implementação [DQNAgent](https://keras-rl.readthedocs.io/en/latest/agents/dqn/) da biblioteca Keras ou pode ser qualquer outra implementação desde que devidamente referenciada e justificada; 
 
-* um resumo do processo de treinamento na forma de uma imagem. Esta imagem deve apresentar os episódios versus o indicador escolhido pelo aluno para a avaliar o processo de aprendizagem; 
+* um resumo do processo de treinamento na forma de uma imagem. Esta imagem deve apresentar os episódios versus o indicador escolhido pelo aluno para avaliar o processo de aprendizagem; 
 
 * o script que realiza o treino do agente deve persistir o modelo treinado para que outro script faça o uso deste modelo. A forma como os scripts irão gravar e ler o modelo fica a critério do aluno;
 
@@ -36,7 +36,7 @@ O objetivo da entrega proficiente é desenvolver um agente que consegue jogar o 
 
 * um texto que descreve o resumo do processo de treinamento: quais foram os hiperparâmetros utilizados, que estrutura de rede neural foi utilizada e quais os resultados alcançados. Tente utilizar no mínimo uma imagem para sumarizar os resultados alcançados durante a etapa de treinamento;
 
-* o script que realiza o treino do agente deve persistir o modelo treinado para que outro script faça uso deste modelo.
+* um script que é capaz de ler o modelo e executar o agente no ambiente.
 
 ## Entrega Avançada
 
