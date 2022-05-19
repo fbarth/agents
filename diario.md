@@ -1,8 +1,10 @@
 # Diário de bordo da disciplina
 
-* 17/05: [Enunciado do projeto sobre Deep Q-Learning](./enunciados/projeto_deep_q_learning.md)
+* 19/05: [Enunciado sobre o último projeto da disciplina](./enunciados/projeto_final_rl.md).
 
-* [Material sobre Deep Reinforcement Learning](https://github.com/fbarth/reinLearn/blob/main/slides/deep_reinforcement_learning.md)
+* 17/05: [Enunciado do projeto sobre Deep Q-Learning](./enunciados/projeto_deep_q_learning.md).
+
+* [Material sobre Deep Reinforcement Learning](https://github.com/fbarth/reinLearn/blob/main/slides/deep_reinforcement_learning.md).
 
 * Atividades para o dia 12/05: 
     * Treinar e avaliar o agente que atua no ambiente de BlackJack.
