@@ -1,6 +1,6 @@
 # Projeto Final de Reinforcement Learning
 
-Este projeto é dividido em N etapas: 
+Este projeto é dividido em 4 etapas: 
 
 * identificação de 3 casos de uso que podem ser resolvidos via aprendizagem por reforço;
 * seleção de um caso de uso para implementação;
