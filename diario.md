@@ -3,7 +3,7 @@
 * Relembrando as datas de entregas: 
     * Projeto de Q-Learning e Deep Q-Learning: 29/05/2022 (domingo)
     * Projeto Final de Reinforcement Learning: 
-        * Entrega intermediária: 02/06/2022 (quinta)
+        * Entrega intermediária: 02/06/2022 (quinta) **a entrega intermediária é pré-requisito para a entrega final**
         * Entrega final: 12/06/2022 (domingo)
     * 
 
