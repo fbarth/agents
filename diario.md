@@ -1,5 +1,12 @@
 # Diário de bordo da disciplina
 
+* Relembrando as datas de entregas: 
+    * Projeto de Q-Learning e Deep Q-Learning: 29/05/2022 (domingo)
+    * Projeto Final de Reinforcement Learning: 
+        * Entrega intermediária: 02/06/2022 (quinta)
+        * Entrega final: 12/06/2022 (domingo)
+    * 
+
 * 19/05: [Enunciado sobre o último projeto da disciplina](./enunciados/projeto_final_rl.md).
 
 * 17/05: [Enunciado do projeto sobre Deep Q-Learning](./enunciados/projeto_deep_q_learning.md).
