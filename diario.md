@@ -1,5 +1,19 @@
 # Diário de bordo da disciplina
 
+* Para aqueles que estão usando GPU, não basta configurar a seed só em: 
+
+````python
+np.random.seed(1234)
+````
+
+é necessário configurar a seed também: 
+
+````python
+import tensorflow as tf
+tf.keras.utils.set_random_seed(1234)
+tf.config.experimental.enable_op_determinism()
+````
+
 * Condição de término para o *Lunar Lander*: 
 
 ````
