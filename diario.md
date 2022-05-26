@@ -8,7 +8,7 @@ the lander crashes (the lander body gets in contact with the moon);
 the lander gets outside of the viewport (x coordinate is greater than 1);
 
 the lander is not awake. From the Box2D docs, a body which is not awake is a body which doesn’t move and doesn’t collide with any other body
-```
+````
 
 * Regra de reforço para o ambiente *Lunar Lander*: 
 
